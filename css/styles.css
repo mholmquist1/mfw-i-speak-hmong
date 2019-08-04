@@ -1,0 +1,44 @@
+/* navbar */
+
+
+/* .caption_1 {
+    font-size:150px;
+    background-color:transparent;
+} */
+
+
+
+/* carousel */
+
+.carousel {
+    margin-bottom:60px;
+}
+
+.carousel-caption {
+    z-index:10;
+    padding-bottom:60px;
+}
+
+.carousel-inner .item {
+    width:100%;
+    height:450px;
+    background-size:cover;
+    background-position:center;
+}
+
+.caption_1 {
+    font-size:150px;
+}
+
+.main_img1 {
+    background-image:url('../img/carousel1.png')
+}
+
+
+.main_img2 {
+    background-image:url('../img/calltaker.jpg')
+}
+
+.main_img3 {
+    background-image:url('../img/books.jpg')
+}
