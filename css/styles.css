@@ -1,22 +1,49 @@
+.container-fluid {
+    /* position:absolute; */
+    padding:0;
+    margin:0;
+}
+
 /* navbar */
 
-
-/* .caption_1 {
-    font-size:150px;
-    background-color:transparent;
+/* .nav {
+    float:right;
 } */
+
+.nav-pills {
+    position:absolute;
+    margin-top:1px;
+    top:100;
+    right:0;
+    /* left:0; */
+    z-index:20;
+}
+
+.caption_1 {
+    font-size:150px;
+    position:absolute;
+    /* top:30px; */
+    width:100%;
+    z-index:999;
+    background:none;
+    margin-top:150px;
+    margin-left:10%;
+    color:white;
+}
 
 
 
 /* carousel */
 
 .carousel {
-    margin-bottom:60px;
+    margin-top:-25px;
 }
 
 .carousel-caption {
-    z-index:10;
-    padding-bottom:60px;
+    /* z-index:10;
+    padding-bottom:60px; */
+    position:absolute;
+    top:0;
 }
 
 .carousel-inner .item {
@@ -24,10 +51,6 @@
     height:450px;
     background-size:cover;
     background-position:center;
-}
-
-.caption_1 {
-    font-size:150px;
 }
 
 .main_img1 {
