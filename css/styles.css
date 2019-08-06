@@ -54,7 +54,8 @@
 }
 
 .main_img1 {
-    background-image:url('../img/carousel1.png')
+    background-image:url('../img/hmong_9.png');
+    /* height:300px; */
 }
 
 
@@ -64,4 +65,25 @@
 
 .main_img3 {
     background-image:url('../img/books.jpg')
+}
+
+/* facts */
+
+.featured {
+    margin-top:50px;
+}
+
+.fact_1 {
+    margin-top:55px;
+}
+
+
+
+/* footer */
+
+footer {
+    margin-top:90px;
+    max-height:100%;
+    background-color:gray;
+    border:5px 5px black;
 }
