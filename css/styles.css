@@ -1,34 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Oswald&display=swap');
+
+
 .container-fluid {
-    /* position:absolute; */
     padding:0;
     margin:0;
 }
-
-/* navbar */
-
-/* .nav {
-    float:right;
-} */
 
 .nav-pills {
     position:absolute;
     margin-top:1px;
     top:100;
     right:0;
-    /* left:0; */
     z-index:20;
 }
 
 .caption_1 {
-    font-size:150px;
+    font-family:'Arvo';
+    font-size:130px;
     position:absolute;
-    /* top:30px; */
     width:100%;
     z-index:999;
     background:none;
-    margin-top:150px;
+    margin-top:100px;
     margin-left:10%;
-    color:white;
+    color:#fff;
+    text-shadow:-9px -8px black;
 }
 
 
@@ -54,7 +50,7 @@
 }
 
 .main_img1 {
-    background-image:url('../img/hmong_9.png');
+    background-image:url('../img/culture.jpg');
 }
 
 
@@ -66,7 +62,13 @@
     background-image:url('../img/books.jpg')
 }
 
-/* facts */
+/* section */
+
+.title_name {
+    font-family:'Oswald', sans-serif;
+    margin-bottom:30px;
+    font-weight:bold;
+}
 
 .featured {
     margin-top:50px;
@@ -80,20 +82,48 @@
 
 /* footer */
 
-footer {
+.footer {
     margin-top:90px;
     max-height:100%;
-    background-color:gray;
-    border:5px 5px black;
+    background-color:rgb(121, 86, 121);
+}
+
+.contact_info {
+    margin-top:20px;
+    color:#fff;
+}
+
+.fa-facebook {
+    color:#3b5998;
+}
+
+.fa-facebook {
+    color:#3b5998;
+}
+
+.fa-instagram {
+    color:#9b6954;
 }
 
 
 
+/* product css */
 
+.btn {
+    background-color:rgb(121, 86, 121);
+    color:#fff;
+    margin-top:40px;
+}
 
+.price_tag {
+    font-size:20px;
+    color:red;
+}
 
+/* contact */
 
-
-
+form span::after {
+    content:'*';
+}
 
 
