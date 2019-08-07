@@ -120,6 +120,12 @@
     color:red;
 }
 
+/* service */
+
+
+
+
+
 /* contact */
 
 form span::after {
@@ -127,3 +133,9 @@ form span::after {
 }
 
 
+@media(max-width: 768px) {
+    .centered {
+        background-color:lightblue;
+        float:none;
+        margin:0 auto;
+    }
