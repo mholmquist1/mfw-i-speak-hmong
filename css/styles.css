@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Oswald&display=swap');
 
-
+/* 
 .container-fluid {
     padding:0;
     margin:0;
-}
+} */
 
 .nav-pills {
     position:absolute;
@@ -55,14 +55,15 @@
 
 
 .main_img2 {
-    background-image:url('../img/calltaker.jpg')
+    background-image:url('../img/calltaker_2.jpg')
 }
 
 .main_img3 {
     background-image:url('../img/books.jpg')
 }
 
-/* section */
+
+/************ section *************/
 
 .title_name {
     font-family:'Oswald', sans-serif;
@@ -77,6 +78,7 @@
 .fact_1 {
     margin-top:55px;
 }
+
 
 
 
@@ -120,8 +122,13 @@
     color:red;
 }
 
-/* service */
+/************* service *****************/
 
+.thumbnail {
+    font-display:center;
+    padding:40px;
+    box-shadow:11px 9px 17px 0px black;
+}
 
 
 
@@ -134,8 +141,12 @@ form span::after {
 
 
 @media(max-width: 768px) {
-    .centered {
-        background-color:lightblue;
-        float:none;
-        margin:0 auto;
+    body {
+        background-color:rgb(250, 234, 250);
     }
+
+    .caption_1 {
+        font-size:80px;
+        text-shadow:-7px -6px black;
+    }
+}
