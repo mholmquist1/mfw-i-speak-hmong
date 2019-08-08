@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Oswald&display=swap');
 
-
+/* 
 .container-fluid {
     padding:0;
     margin:0;
-}
+} */
 
 .nav-pills {
     position:absolute;
@@ -62,7 +62,8 @@
     background-image:url('../img/books.jpg')
 }
 
-/* section */
+
+/************ section *************/
 
 .title_name {
     font-family:'Oswald', sans-serif;
@@ -77,6 +78,7 @@
 .fact_1 {
     margin-top:55px;
 }
+
 
 
 
@@ -120,13 +122,14 @@
     color:red;
 }
 
-/* service */
+/************* service *****************/
 
 .thumbnail {
     font-display:center;
     padding:40px;
     box-shadow:11px 9px 17px 0px black;
 }
+
 
 
 
